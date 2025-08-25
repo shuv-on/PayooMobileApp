@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payoo Mobile App</title>
+    <!--Dasiy UI CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" /> 
+    <!--Tailwind CSS-->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<body class="bg-[#f4f5f7] h-[100vh] flex justify-center items-center " >
+    <form class="border-2 bg-white rounded-2xl p-8 w-[350px] border-none">
+        <div>
+            <label class="font-semibold">Mobile number</label> <br>
+            <input type="text" class="input mt-3 rounded-3xl" placeholder="Enter mobile number"  class="input bg-[#f4f5f7]"/>
+        </div>
+        <div class="mt-5">
+            <label class="font-semibold">4 digit pin</label> <br>
+            <input type="text" class="input mt-3 rounded-3xl" placeholder="Enter 4 Digit Pin"  class="input bg-[#f4f5f7]"/>
+        </div>
+        <button class="btn btn-active btn-info mt-5 w-full text-white rounded-3xl">Log in</button>
+    </form>
 </body>
 </html>
